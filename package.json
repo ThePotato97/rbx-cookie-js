@@ -1,16 +1,25 @@
 {
   "name": "rbx-cookie",
   "version": "1.0.0",
-  "description": "",
+  "description": "A lightweight Node.js utility that retrieves the Roblox cookie from your Roblox Studio installation or environment.",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "node src/index.js",
     "test": "node src/test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "rbx",
+    "roblox",
+    "cookie",
+    "roblox-cookie",
+    "auth",
+    "authentication",
+    "login",
+    "studio"
+  ],
+  "author": "Jack Fox <0xdeadbeef1@gmail.com>",
+  "license": "MIT",
   "packageManager": "pnpm@10.6.4",
   "dependencies": {
     "keytar": "^7.9.0",
